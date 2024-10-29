@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задачи</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем стили -->
+</head>
+<body>
+    <h1>Три задачи на JavaScript</h1>
+    
+    <!-- Задача 1: Кнопка с подсчётом кликов -->
+    <div class="task task-clicks">
+        <button id="clickButton">Нажми меня!</button>
+        <p>Количество кликов: <span id="clicksCount">0</span></p>
+    </div>
+
+    <!-- Задача 2: Форма с валидацией Email -->
+    <div class="task task-form">
+        <form id="emailForm">
+            <label for="emailInput">Введите ваш Email:</label><br>
+            <input type="text" id="emailInput" name="email"><br>
+            <button type="submit">Отправить</button>
+            <p id="validationMessage"></p>
+        </form>
+    </div>
+
+    <!-- Задача 3: Таймер с количеством прошедших секунд -->
+    <div class="task task-timer">
+        <p>Прошедшие секунды: <span id="timerSeconds">0</span></p>
+    </div>
+
+    <!-- Подключение скрипта -->
+    <script src="scripts.js"></script>
+</body>
+</html>
